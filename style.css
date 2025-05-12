@@ -24,9 +24,17 @@ header {
   padding-bottom: 20px;
 }
 
-header img {
-  width: 120px;
+.profile-img {
+  width: 50px;  /* Adjust width */
+  height: 50px; /* Adjust height */
+  max-width: 100%;  /* Ensure it doesn't exceed the container's size */
   border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 2px solid #ccc;
+}
+
+
 }
 
 .header-info {
