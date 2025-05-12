@@ -25,16 +25,12 @@ header {
 }
 
 .profile-img {
-  width: 50px;  /* Adjust width */
-  height: 50px; /* Adjust height */
-  max-width: 100%;  /* Ensure it doesn't exceed the container's size */
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 20px;
   border: 2px solid #ccc;
-}
-
-
 }
 
 .header-info {
